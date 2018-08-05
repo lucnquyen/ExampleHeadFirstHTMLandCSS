@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+h1 {font-size: 170%}         /*the font size should be 150% of another font size.  cc21px*/
+h2 {font-size: 150%}       /* which in this case is 1.2 times 14px, which is about 17px.*/
+
+h1,h2 {
+    font-weight: normal;
+    color: #cc6600;
+    border-bottom: thin dotted #888888;
+    text-decoration: underline;
+}
+blockquote {
+    font-style: italic; 
+}
+em {
+    text-decoration: none;
+}
+
+/* Again, it depends on the browser,
+but in general, <h1> is 200% of the default
+body text font size, <h2> is 150%, <h3>
+is 120%, <h4> is 100%, <h5> is 90%, and
+<h6> is 60%
+
+“Khi nào ngươi mới có thể thu hồi tính tình lười biếng . . . . . .”
+*/
