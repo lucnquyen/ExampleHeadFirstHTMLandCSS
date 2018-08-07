@@ -30,8 +30,11 @@ table {
     }
 
  td, th {
-    border: thin solid gray;
+    border: thin dotted gray;
     padding: 5px;
+}
+th {
+    background-color: #fcba7a;
 }
 
 caption {
