@@ -7,15 +7,8 @@ body {
   
   #header {
     background-color: #675c47;
-    margin:           10px;
-    height:           108px;
-  }
-
-  #award {
-    position: absolute;
-    top: 30px;
-    left: 365px;
-    z-index: 99;
+    margin: 10px;
+    height: 108px;
   }
   
   #main {
@@ -30,10 +23,9 @@ body {
     font-size:        105%;
     padding:          15px;
     margin:           0px 10px 10px 10px;
-    position: absolute;
-    top: 128px;
-   right: 0px;
-   width: 280px;
+    width: 280px;
+    float: right;
+
   }
   
   #footer {
@@ -41,8 +33,9 @@ body {
     color:            #efe5d0;
     text-align:       center;
     padding:          15px;
-    margin: 10px 330px 10px 10px;
+    margin:           10px;
     font-size:        90%;
+    clear: right;
   }
   
   h1 {
